@@ -37,4 +37,16 @@ with col2:
     st.image(resize_image(image6), use_column_width=True, caption='Cocunut Trees of my Grandpa Land with grass filled around ')
     st.image(resize_image(image8), use_column_width=True, caption='Hanuman Temple with ancient building and an statue outside')
 
-
+# Apply equal spacing between rows and columns
+st.markdown(
+    """
+    <style>
+    .element-container {
+        margin: 10px !important;
+        padding: 10px !important;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
