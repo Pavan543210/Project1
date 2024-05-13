@@ -33,8 +33,8 @@ with col1:
 
 with col2:
     st.image(resize_image(image2), use_column_width=True, caption='Image of my Grandfather who planted the Cocunut Plant')
-    st.image(resize_image(image4), use_column_width=True, caption=' Paddy cultivation at my grandfather's Land')
-    st.image(resize_image(image6), use_column_width=True, caption='Cocunut Trees of my Grandpa's Land with grass filled around ')
+    st.image(resize_image(image4), use_column_width=True, caption=' Paddy cultivation at my grandpa Land')
+    st.image(resize_image(image6), use_column_width=True, caption='Cocunut Trees of my Grandpa Land with grass filled around ')
     st.image(resize_image(image8), use_column_width=True, caption='Hanuman Temple with ancient building and an statue outside')
 
 
